@@ -10,7 +10,7 @@ class Queue:
         self.contents.insert(0, item)
 
     def dequeue(self):
-        return self.items.pop()
+        return self.contents.pop()
 
 def main():
     testQueue = Queue()
